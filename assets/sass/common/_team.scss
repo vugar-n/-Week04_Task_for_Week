@@ -1,0 +1,44 @@
+/*    Team    */
+#team{
+    background-color: $bgColorFirst;
+    padding-top: 80px;
+    padding-bottom: 78px;
+    .thumbnail{
+        border:0;
+        position: relative;
+        padding: 0;
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+        }
+
+        letter-spacing: 1px;
+    }
+    .sectionHeader{
+      h4{
+          margin-bottom: 29px;
+      }
+    }
+    h4, h2{
+        text-transform: uppercase;
+    }
+    .row>h4, .row>h2{
+        padding-left: 15px;
+    }
+    p{
+        font-size: 14px;
+        color: $textColorFifth;
+
+    }
+    .caption{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        h4{
+        font-size: 14px;
+        color: $textColorThird;
+
+        }
+    }
+
+
+}

@@ -1,0 +1,30 @@
+/*      Fun Fact     */
+
+#funFact{
+    padding-top:54px;
+    color: $textColorThird;
+    img{
+        margin: 14px 8px 8px 0;
+
+        vertical-align: top;
+    }
+    p{
+        font: 400 60px / 24px Tahoma;
+        letter-spacing: 4px;
+        &:nth-child(3){
+            letter-spacing: 2px;
+        }
+    }
+    h5{
+        font: 400 10px / 24px Tahoma;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .col-md-3{
+         div{
+            display: inline-block;
+            margin: 20px 0 0 0 ;
+         }
+        padding-bottom: 62px;
+    }
+}

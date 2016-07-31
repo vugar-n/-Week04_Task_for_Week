@@ -1,0 +1,19 @@
+/*        Cover     */
+#cover{
+    height: 310px;
+    background-image: url($imageLink+'cover.png');
+    background-size: cover;
+    margin-top: 2px;
+    padding: 105px 0 122px 0;
+    color: $textColorSeventh;
+    h2{
+        text-transform: uppercase;
+        font: 700 48px / 30px Tahoma;
+
+    }
+    p{
+        font: 500 14px / 30px Tahoma;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
