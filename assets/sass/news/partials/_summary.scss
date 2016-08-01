@@ -1,0 +1,39 @@
+/*    Summary   */
+#summary{
+
+    .summaryTop{
+
+            font-family: 'Tahoma';
+            color: #23282E;
+            height:auto;
+            letter-spacing: 1px;
+            padding:72px 0 69px 0;
+            h1{
+                font-size: 30px;
+                font{
+                    color:#F49936;
+                }
+            }
+            h6{
+                font-size: 13px;
+                text-transform: uppercase;
+                margin-bottom: 1px;
+            }
+            button{
+                width:141px;
+                height:38px;
+                border-radius:20px;
+                text-transform: uppercase;
+                color:white;
+                margin:30px 7px;
+                font-size:14.5px;
+                &:nth-child(3){
+                    background-color:#28C0DF;
+                }
+                &:last-child{
+                    background-color:#F49936;
+                }
+            }
+    }
+
+}
